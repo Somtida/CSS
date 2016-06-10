@@ -1,0 +1,207 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #ddd;
+  background: #eee;
+  z-index: 999;
+  /*background: url('http://rs385.pbsrc.com/albums/oo296/EmO_TEnTAi/Falling%20objects/13_iykim2000_1.gif~c200');*/
+}
+h1 h2 h3{
+  margin: 5px 0;
+  color: #353535;
+}
+h3{
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+#logo{
+  float: left;
+  position: fixed;
+  top: 2px;
+  margin: 0;
+  width: auto;
+  border-left: none;
+  /*border: 1px solid #000;*/
+}
+#logo .express1{
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
+  font-weight: 100;
+  padding: 0 0 0 20px;
+  color: #444;
+  display: block;
+  /*border: 1px solid #000;*/
+  font-size: 30px;
+}
+#navbar{
+  padding:0;
+  padding-left: 5%;
+  margin: 0;
+  position: absolute;
+  right: 183px;
+  top: 0;
+  padding-bottom: 2px;
+  z-index: 10px;
+  /*border: 1px solid green;*/
+}
+#navbar li{
+  float:left;
+  display: block;
+  list-style-type: none;
+  padding-right: 20px;
+}
+#navbar a{
+  color: #666;
+  margin: 0 5px;
+  padding-right: 15px;
+}
+body{
+  font: 400 18px/1.6 "Open Sans",sans-serif;
+  background: url(http://expressjs.com/images/bg.jpg);
+  margin: 0;
+  padding: 0;
+  color: #555;
+  /*background: url(http://imgur.com/el722lG);*/
+}
+a{
+  color: #259dff;
+  text-decoration: none;
+  font-weight: 20px;
+  cursor: auto;
+}
+div{
+  display: block;
+}
+menu{
+  display: none;
+}
+
+menu:hover .dropit-open{
+  display: block;
+}
+.dropit-open{
+  display: none;
+}
+.dropit-open:hover{
+  display: block;
+}
+.dropit-trigger a:hover{
+  background:#259dff;
+  color:#fff!important;
+  text-decoration:none;
+}
+.dropit .dropit-trigger{
+  position: relative;
+  margin-bottom: 6px;
+}
+.dropit-trigger li{
+  display: list-item;
+}
+#home-content{
+  margin: 120px 0 2% 5%;
+  max-width: 900px;
+  padding-right: 9%;
+}
+#description{
+  margin-bottom: 40px;
+}
+#description .express{
+  display: block;
+  font: 4.5em "Helvetica Neue", "Open Sans", sans-serif;
+  font-weight: 100;
+  color: #353535;
+  margin-bottom: .25em;
+  font-size: 100px;
+  position: relative;
+}
+#description .description{
+  top: -5px;
+  position: relative;
+  color: #aeaeae;
+  line-height: .75;
+  font: 100 4.2em "Helvetica Neue", "Open Sans", sans-serif;
+}
+#install-command{
+  font-family: Consolas,Monaco, "Andale Mono", monospace;
+  border: 1px solid #eee;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  max-width: 375px;
+}
+* {
+  box-sizing: border-box;
+}
+.dropit-open{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#intro{
+  margin-left: 5%;
+}
+#intro h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+#boxes{
+  margin-top: 30px;
+}
+#boxes h3{
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 1.25em;
+}
+.clearfix{
+  display: inline-block;
+}
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#boxes div{
+  width: 215px;
+  margin-right: 50px;
+  float: left;
+  list-style: none;
+  padding-bottom: 20px;
+}
+#doc-langs{
+  text-align: center;
+  font-size: 12px;
+}
+footer{
+  font-size: 11px;
+  margin: 70px 10px 30px 10px;
+}
+#footer-content{
+  display: talbe;
+  margin: 0 auto;
+}
+#footer-content div{
+  float: left;
+  /*left:20px;*/
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 0 1px;
+  padding-bottom: 4px;
+  /*display: block;*/
+
+}
+#github{
+  padding-left: 90px;
+}
+#fork{
+  background-image: url(http://expressjs.com/images/fork-icon.png);
+  background-size: 11px 16px;
+  padding-left: 15px;
+  /*background-repeat: no-repeat;*/
+}
